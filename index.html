@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timezone Manager</title>
+    <link rel="stylesheet" href="timeZone.css">
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <input type="range" id="timeRange" min="0" max="23" value="12">
+            <input type="date" id="dateInput">
+        </div>
+        <ul id="timezoneList"></ul>
+        <div class="controls">
+            <button id="addTimezoneBtn">Add Timezone</button>
+            <button id="reverseOrderBtn">Reverse Order</button>
+            <button id="toggleDarkModeBtn">Toggle Dark Mode</button>
+        </div>
+    </div>
+    <script src="time_converter.js"></script>
+</body>
+</html>
